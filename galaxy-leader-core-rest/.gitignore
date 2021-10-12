@@ -1,0 +1,39 @@
+# IDEA Intellij File
+.idea/
+*.iml*
+
+# .gitignore
+
+# Maven files
+*/target/*
+
+# Spring local files
+application-local.properties
+src/main/resources/config/application-local.properties
+
+# Git merge file
+*.orig
+
+######################
+# Eclipse
+######################
+*.pydevproject
+.project
+.metadata
+/bin/**
+/tmp/**
+/tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/**
+.loadpath
+/src/main/resources/rebel.xml
+.factorypath
+.springBeans
+
+LOG_PATH_IS_UNDEFINED/
+*.prefs
