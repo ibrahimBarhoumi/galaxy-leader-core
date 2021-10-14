@@ -1,0 +1,17 @@
+Build:
+  stage: build
+  tags:
+    - build
+  script:
+    - mvn clean install -B -DskipTests
+
+Test:
+  stage: test
+  tags:
+    - build
+  script:
+    - mvn test
+
+
+
+
